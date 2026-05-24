@@ -1,29 +1,25 @@
 # Sistema de Notas Fiscais em C
 
-Projeto desenvolvido em linguagem C com foco em manipulação de arquivos binários, structs e persistência de dados.
-
-## Tecnologias e conceitos utilizados
-
-- Structs
-- Arquivos binários
-- fread() e fwrite()
-- Vetores
-- Funções
-- Busca de dados
-- Persistência em arquivo `.dat`
+Projeto desenvolvido em linguagem C com persistência de dados utilizando arquivos binários.
 
 ## Funcionalidades
 
 - Cadastro de produtos
-- Busca de produtos por código
+- Busca por código
 - Geração de notas fiscais
-- Salvamento automático dos dados
-- Leitura automática dos dados ao iniciar o sistema
+- Salvamento automático em `.dat`
 
-## Objetivo do projeto
+## Conceitos utilizados
 
-Praticar conceitos fundamentais da linguagem C, incluindo:
-- manipulação de memória
-- arquivos
-- organização modular
-- lógica de sistemas CRUD
+- Structs
+- Ponteiros
+- Arquivos binários
+- fread / fwrite
+- Manipulação de strings
+- Vetores
+- Modularização com funções
+
+## Tecnologias
+
+- Linguagem C
+- GCC / MinGW
